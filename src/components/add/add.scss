@@ -1,0 +1,62 @@
+@import "../../styles/variables.scss";
+
+.css-1wnsr1i {
+  padding: 0px !important;
+  background-color: transparent !important;
+  border-radius: 10px;
+}
+  .modal {
+    padding: 30px;
+    border-radius: 10px;
+    background-color: $main-bg;
+    position: relative;
+    color: white;
+
+    h1 {
+      margin-bottom: 40px;
+      font-size: 24px;
+      color: $soft-color;
+    }
+
+    .close {
+      position: absolute;
+      top: 10px;
+      right: 10px;
+      cursor: pointer;
+    }
+
+    form {
+      display: flex;
+      flex-wrap: wrap;
+      max-width: 500px;
+      justify-content: space-between;
+
+      .item {
+        width: 45%;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        margin-bottom: 20px;
+
+        label {
+          font-size: 14px;
+        }
+
+        input {
+          padding: 10px;
+          background-color: transparent;
+          color: white;
+          outline: none;
+          border: 1px solid $soft-color;
+          border-radius: 4px;
+        }
+      }
+      button {
+        width: 60%;
+        padding: 10px;
+        cursor: pointer;
+        margin: auto;
+        border-radius: 4px;
+      }
+    }
+  }
