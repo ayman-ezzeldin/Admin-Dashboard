@@ -1,7 +1,5 @@
 # Admin Dashboard
 
-![Admin Dashboard Preview](https://github.com/ayman-ezzeldin/Admin-Dashboard/blob/main/preview.png) <!-- Add a preview image if available -->
-
 A modern and responsive admin dashboard built to help developers manage and visualize data efficiently. This project is designed to be customizable and easy to integrate into your applications.
 
 ## Features
